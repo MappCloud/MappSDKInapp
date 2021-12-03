@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
   s.ios.vendored_frameworks = "SDK/AppoxeeInapp.xcframework"
   s.preserve_paths = 'SDK/AppoxeeInapp.xcframework'
-  s.resource_bundle = { 'AppoxeeInappResources' => 'SDK/AppoxeeInappResources.bundle' }
   s.resource = 'SDK/AppoxeeInappResources.bundle'
   s.requires_arc = true
 
