@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MappSDKInapp"
-  s.version      = "6.0.6.2"
+  s.version      = "6.0.6.3"
   s.cocoapods_version = '>= 1.10'
   s.summary      = "Mapp SDK Inapp enables developers to harnest the full power of Appoxee Inapp messaging on their iOS applications."
   s.description  = 	<<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "SDK/AppoxeeInapp.xcframework"
   s.preserve_paths = 'SDK/AppoxeeInapp.xcframework'
   s.resource_bundle = { 'AppoxeeInappResources' => 'SDK/AppoxeeInappResources.bundle' }
-  S.resource = {'SDK/AppoxeeInappResources.bundle'}
+  s.resource = 'SDK/AppoxeeInappResources.bundle'
   s.requires_arc = true
 
 end
