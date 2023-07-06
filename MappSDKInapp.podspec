@@ -2,7 +2,6 @@ Pod::Spec.new do |s|
 
   s.name         = "MappSDKInapp"
   s.version      = "6.0.6.9"
-  s.cocoapods_version = '>= 1.10'
   s.summary      = "Mapp SDK Inapp enables developers to harnest the full power of Appoxee Inapp messaging on their iOS applications."
   s.description  = 	<<-DESC
   					Mapp SDK Inapp enables Inapp messaging in your iOS application, for engaging your application users and increasing retention.
