@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Custom", :file => "MappLicence.txt" }
   s.author       = { "Mapp Digital" => "https://mapp.com/contact-us/" }
   s.source       = { :git => "https://github.com/MappCloud/MappSDKInapp.git", :tag => "#{s.version}" }
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 i386', 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64', 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64' }
   s.ios.framework = 'WebKit'
   s.platform     = :ios, "10.0"
   s.ios.vendored_frameworks = "SDK/AppoxeeInapp.xcframework"
